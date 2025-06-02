@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: Verdana, geneva, tahoma, sans-serif;
+    margin: 0;
+}
+header {
+    padding: 40px 30px 50px 70px;
+   background: #1abc9c;
+   text-align: center;
+   color: #FFF;
+}
+h1{
+    font-family:  Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+nav ul {
+    list-style: none;
+    padding: 14px 20px;
+    display: flex;
+    background-color: #000000;
+}
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 20px;
+}
+nav ul li a:hover {
+    color: black;
+    background-color: #DDD;
+}
+section{
+    padding: 20px;
+}
+section article p{
+    padding: 5px 0;
+}
+.lista{
+    padding: 0 0 0 30px;
+}
+li::marker {
+    font-weight: bold;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+}
+.produto {
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.produto h2{
+    color: #0e6856
+}
+.produto p {
+    margin: 5px 0;
+}
+.preco {
+    color: coral;
+    font-weight: bold;
+}
+
+
