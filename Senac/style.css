@@ -1,0 +1,258 @@
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin: 0 10px;
+    color: #000 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3467e6 !important;
+}
+
+.btn-primary {
+    background-color: #3467e6;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3467e6;
+}
+
+.bi-backpack-fill {
+    color: #3467e6;
+    margin-left: 10px;
+}
+
+.search-wrapper {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #ff6600;
+    font-size: 22px;
+    pointer-events: none;
+}
+
+.search-input {
+    padding-left: 2.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin: 0 12px;
+    color: #000 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3 !important;
+}
+
+.btn-primary {
+    background-color: #2d72d9;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1b4f9c;
+}
+
+.bi-backpack-fill {
+    color: #2d72d9;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+/* Container do vídeo */
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.video-bg iframe {
+    width: 100vw;
+    height: 80vh;
+    pointer-events: none;
+}
+
+/* Camada azul semi-transparente */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background: rgba(0, 81, 153, 0.8);
+    /* azul com transparência */
+    z-index: -1;
+}
+
+/* Conteúdo central */
+.content h1 span {
+    color: gold;
+}
+
+.content .habilidades {
+    margin-top: 10px;
+    color: gold
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: -250px;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-top: 00px;
+    max-width: 700px;
+    z-index: 900px;
+}
+
+.search-box {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 1em;
+    outline: none;
+    padding-left: 10px;
+}
+
+.search-box i {
+    color: white;
+    font-size: 1.2em;
+}
+#cursos .btn {
+    margin-top: 40px;
+    color: white;
+}
+#cursos h1 {
+    color: #ff6600;
+    margin-left: 35%;
+    margin-top: -300px;
+}
+.btn-tecnico {
+    background-color: #ff6600;
+    padding: 8px;
+    margin-left: 280px;
+
+}
+.btn-graduacao {
+    background-color: #3467e6;
+    padding: 8px;
+}
+.btn-ead {
+    background-color: aquamarine;
+    padding: 8px;
+}
+.btn-livre {
+    background-color: violet;
+    padding: 8px;
+}
+.btn-extencao {
+    background-color: red;
+    padding: 8px;
+}
+.btn-posgraduacao {
+    background-color: orange;
+    padding: 8px;
+}
+.btn-escolapanelinha {
+    background-color: goldenrod;
+    padding: 8px;
+}
+.btn-jovemaprendiz {
+    background-color: green;
+    padding: 8px;
+}
+.btn-graduacao:hover {
+    background-color: black;
+    border-color: white;
+    padding: 8px;
+}
+.btn-tecnico:hover{
+    background-color: black;
+    border-bottom: white;
+}
+.btn-ead:hover{
+    background-color: black;
+    border-bottom: white;
+}
+.btn-livre:hover{
+    background-color: black;
+    border-bottom: white;
+}
+.btn-extencao:hover{
+    background-color: black;
+    border-bottom: white;
+}
+.btn-posgraduacao:hover{
+    background-color: black;
+    border-bottom: white;
+}
+.btn-escolapanelinha:hover{
+    background-color: black;
+    border-bottom: white;
+}
+.btn-jovemaprendiz:hover{
+    background-color: black;
+    border-bottom: white;
+}
+.btn-tecnico:hover{
+    background-color: black;
+    border-bottom: white;
+}
