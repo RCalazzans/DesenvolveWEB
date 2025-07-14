@@ -11,7 +11,7 @@
     $num= 7;
     for ($i = 0; $i <= 10; $i++)
     {
-        echo "$num x $i = ".$num * .$i. "<br>";
+        echo "$num x $i = ".$num * $i. "<br>";
     }
     ?>
     <h2>Foreach</h2>
